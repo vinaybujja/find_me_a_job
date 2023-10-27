@@ -1,0 +1,27 @@
+:root
+{
+    --red: #ED2647;
+}
+.job-post
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1px 0 black;
+}
+.job-post-sidebar
+{
+    padding: 10px;
+    position: relative;
+    flex-grow: 2;
+    color: var(--red);
+}
+.job-post-postingdate
+{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 10px;
+    /* color: black; */
+}

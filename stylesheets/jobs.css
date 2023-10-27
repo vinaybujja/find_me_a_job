@@ -1,0 +1,28 @@
+:root
+{
+    --red: #ED2647;
+    --white: #ffffff;
+    --bgcolor: rgba(239, 10, 10, 0.096);
+}
+.red-color
+{
+    color: var(--red);
+}
+.job-details>*
+{
+    margin: 5%;
+}
+.image-holder > img
+{
+    width: 100%;
+    aspect-ratio: auto;
+}
+.job-details ul>li
+{
+    list-style-type: disc;
+    padding: 5px 0;
+}
+a
+{
+    font-size: large;
+}
